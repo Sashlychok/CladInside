@@ -1,0 +1,105 @@
+@media screen and (max-width: 1025px){
+    /* адаптив для хедера */
+    .contain-header{
+        max-width: 1024px;
+    }
+
+    .title-image{
+        width: 140px;
+    }
+
+    .title-image img{
+        width: 140px;
+    }
+
+    .menu-text{
+        font-size: 14px;
+    }
+
+    .fa-shopping-cart{
+        font-size: 18px;
+    }
+
+    /* адаптивы для самой страницы */
+    .click-email, .call, .location{
+        font-size: 20px;
+    }
+
+    .image, .location-image{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    /* адаптив для хедера */
+    .title-image{
+        width: 140px;
+    }
+
+    .image-title{
+        width: 140px;
+    }
+
+    .search{
+        width: 170px;
+    }
+
+    .home{
+        display: none;
+    }
+
+    .title-img{
+        z-index: -1;
+    }
+
+    .model{
+        width: 350px;
+    }
+
+    .clad-inside{
+        margin-left: 40px;
+    }
+
+    .main-section{
+        height: 650px;
+    }
+
+    .main-image{
+        width: 370px;
+    }
+
+    /* адаптивы для самой страницы */
+    .click-email, .call, .location {
+        font-size: 15px;
+    }
+
+    .image, .location-image{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    main{
+        flex-direction: column;
+    }
+
+    .image{
+        margin: 50px 0 0 0;
+    }
+
+    .click-email, .call, .location{
+        font-size: 20px;
+    }
+
+    .mail, .phone, .location{
+        width: 100%;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 30px;
+    }
+}

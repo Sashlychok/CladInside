@@ -1,0 +1,354 @@
+@media screen and (max-width: 1025px){
+    /* адаптив для хедера */
+    .contain-header{
+        max-width: 1024px;
+    }
+
+    .image-title{
+        max-width: 160px;
+        margin-right: 20px;
+    }
+
+    .menu-text{
+        font-size: 14px;
+    }
+
+    .fa-shopping-cart{
+        font-size: 18px;
+    }
+
+    .search{
+        width: 160px;
+    }
+
+    .menu{
+        padding-left: 10px;
+    }
+    /* адаптивы для главной */
+
+    .clad-inside, .title-img{
+        max-width: 512px;
+    }
+
+    .main-image{
+        width: 400px;
+    }
+
+    /* карусель адаптирована, но есть мелкие фикс */
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .stars{
+        font-size: 23px;
+    }
+
+    .cost{
+        font-size: 33px;
+        margin: 0;
+    }
+
+    /* адаптивы для about us */
+    .ab-info{
+        height: 300px;
+        font-size: 22px;
+    }
+
+    .title{
+        margin-bottom: 20px;
+    }
+
+    /* адаптивы для social media */
+    .social-content{
+        width: 230px;
+    }
+}
+
+/* подгонка между компом и планшетом */
+@media screen and (max-width: 1140px){
+    /* главная */
+    .main-image{
+        width: 400px;
+    }
+    /* о нас */
+    .about-content{
+        height: 300px;
+    }
+
+    .ab-info{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .model{
+        width: 350px;
+    }
+
+    .clad-inside{
+        margin-left: 40px;
+    }
+
+    .main-section{
+        height: 650px;
+    }
+
+    .main-image{
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    /* адаптив для хедера */
+    .title-image{
+        width: 140px;
+    }
+
+    .image-title{
+        width: 140px;
+    }
+
+    .search{
+        width: 150px;
+    }
+
+    .home{
+        display: none;
+    }
+
+    .title-img{
+        z-index: -1;
+    }
+
+    .model{
+        width: 350px;
+    }
+
+    .clad-inside{
+        margin-left: 40px;
+    }
+
+    .main-section{
+        height: 650px;
+    }
+
+    .main-image{
+        width: 370px;
+    }
+
+    .menu-text-click{
+        padding: 0 10px;
+    }
+
+    /* адаптивы для карусели */
+    .more a{
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    .more h1{
+        padding-left: 30px;
+        font-size: 45px;
+    }
+
+    #mens, #womens, #boys{
+        padding-left: 30px;
+        font-size: 45px;
+    }
+
+    .name{
+        font-size: 23px;
+    }
+
+    /* адаптивы для about us */
+    .about-page-contain{
+        width: 100%;
+    }
+
+    .about-content{
+        max-width: 360px;
+    }
+
+    .about-content{
+        font-size: 22px;
+    }
+
+    .about-page-contain > .title{
+        padding-left: 30px;
+    }
+
+    /* адаптивы для social media */
+    .container > .title{
+        padding-left: 30px;
+    }
+
+    .social-content{
+        width: 210px;
+    }
+
+    .social-block{
+        gap: 15px;
+    }
+}
+
+/* подгонка между планшетом и телефоном */
+@media screen and (max-width: 730px){
+    .model{
+        width: 300px;
+    }
+
+    .main-section{
+        height: 600px;
+    }
+
+    .main-image{
+        width: 340px;
+    }
+
+    /* ab us */
+    .about-content{
+        height: 250px;
+        width: 300px;
+    }
+
+    .ab-info{
+        font-size: 18px;
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .model{
+        width: 270px;
+    }
+
+    .main-section{
+        height: 600px;
+    }
+
+    .main-image{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    /* адаптив для главной */
+    .clad-inside, .title-img{
+        width: 100%;
+        position: absolute;
+        margin: 0;
+    }
+
+    .main-section{
+        justify-content: center;
+    }
+
+    .tagline{
+        margin-bottom: 110px;
+    }
+
+    .model{
+        opacity: 0.5;
+        width: 350px;
+    }
+
+    /* carousel */
+    #mens, #womens, #boys, #girls{
+        font-size: 32px;
+    }
+
+    .more a{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    /* адаптив для about us */
+    .about-content{
+        max-width: 200px;
+        max-height: 180px;
+    }
+
+    .ab-info{
+        font-size: 13px;
+    }
+
+    .title{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* social media */
+    .social-content{
+        width: 110px;
+    }
+
+}
+
+/* подгонка на телефон  */
+@media screen and (max-width: 380px) {
+    /* главная */
+    .main-image{
+        width: 350px;
+    }
+
+    /* ab us */
+    .about-content{
+        height: 100px;
+        max-width: 150px;
+    }
+
+    .ab-info{
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    #mens, #womens, #boys, #girls{
+        font-size: 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #mens, #womens, #boys, #girls{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 340px) {
+    /* главная */
+    .main-image{
+        width: 320px;
+    }    
+
+    .model{
+        width: 300px;
+    }    
+
+   
+}    
+
+@media screen and (max-width: 321px) {
+    /* главная */
+    .main-image{
+        width: 300px;
+    }    
+
+    .model{
+        width: 300px;
+    }    
+}    
+
