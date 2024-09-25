@@ -23,11 +23,11 @@
     }
 
     /* адаптивы для футера */
-    /* .footer-container {
+    .footer-container {
         flex-wrap: wrap;
         margin: 0;
         width: 100%;
-    } */
+    }
 
     .footer-block3 {
         width: 100%;
@@ -39,11 +39,11 @@
         flex-direction: column;
     }
 
-    /* .footer-input {
+    .footer-input {
         margin: 0;
         flex-direction: row;
         justify-content: space-between;
-    } */
+    }
 
     .right-side {
         justify-content: flex-end;
@@ -56,13 +56,13 @@
         padding-left: 45px;
     }
 
-    /* .input-area {
+    .input-area {
         width: 300px;
-    } */
+    }
 
-    /* .send-email {
+    .send-email {
         left: 250px;
-    } */
+    }
 
     .footer-block2 {
         margin-left: 100px;
@@ -140,13 +140,13 @@
         margin-left: 20px;
     }
 
-    /* .input-area{
+    .input-area{
         width: 200px;
         height: 40px;
         font-size: 20px;
-    } */
+    }
 
-    /* .send-email{
+    .send-email{
         left: 170px;
         top: -39px;
         max-width: 20px;
@@ -154,19 +154,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    } */
+    }
 
     .footer-block-title{
         font-size: 16px;
     }
 
-    /* .input-area::placeholder{
+    .input-area::placeholder{
         font-size: 20px;
-    } */
+    }
 
-    /* .footer-title{
+    .footer-title{
         font-size: 16px;
-    } */
+    }
 
     .right-side{
         margin: 0;

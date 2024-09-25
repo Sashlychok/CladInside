@@ -96,7 +96,7 @@ a{
 }
 
 /* !секция footer */
-/* .footer{
+.footer{
     margin-top: 200px;
     background-color: #161616;
 }
@@ -180,7 +180,7 @@ a{
 .right-side{
    display: flex;
    flex-direction: column;
-} */
+}
 
 /* !Поисковая система  */
 .elastic li.hide{
